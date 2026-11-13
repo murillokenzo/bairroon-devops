@@ -25,7 +25,7 @@ Duas tabelas relacionadas: `BAIRRO` (1) ---- (N) `OCORRENCIA`, com chave estrang
 | Ferramenta | Versao |
 |------------|--------|
 | Ubuntu | 24.04 LTS |
-| Docker | 25.0.7 |
+| Docker | 29.1.3 |
 | Docker Compose | 2.40.3 |
 | Azure CLI | 2.91.0 |
 | Java / Spring Boot | 21 / 3.3.5 |
