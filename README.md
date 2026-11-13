@@ -25,16 +25,16 @@ Duas tabelas relacionadas: `BAIRRO` (1) ---- (N) `OCORRENCIA`, com chave estrang
 | Ferramenta | Versao |
 |------------|--------|
 | Ubuntu | 24.04 LTS |
-| Docker | PREENCHER (docker --version) |
-| Docker Compose | PREENCHER (docker compose version) |
-| Azure CLI | PREENCHER (az version) |
+| Docker | 25.0.7 |
+| Docker Compose | 2.40.3 |
+| Azure CLI | 2.91.0 |
 | Java / Spring Boot | 21 / 3.3.5 |
-| Oracle Free (imagem) | gvenzl/oracle-free:23-slim |
+| Oracle Free (container) | gvenzl/oracle-free:23-slim |
 
 ## How To (reproduzir do zero)
 1. No Azure Cloud Shell (Bash), baixe o repositorio e crie a VM:
 
-        git clone https://github.com/USUARIO/REPO.git
+        https://github.com/murillokenzo/bairroon-devops.git
         cd REPO
         export VM_PASS='SuaSenhaForte@123'
         ./criarvm.sh
@@ -50,7 +50,7 @@ Duas tabelas relacionadas: `BAIRRO` (1) ---- (N) `OCORRENCIA`, com chave estrang
 
 4. Na VM, baixe o projeto e crie o `.env` a partir do `.env.example` (troque as senhas):
 
-        git clone https://github.com/USUARIO/REPO.git
+        https://github.com/murillokenzo/bairroon-devops.git
         cd REPO
         cp .env.example .env
         nano .env
